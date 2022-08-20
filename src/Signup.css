@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Allura&family=Montserrat:wght@400;500&display=swap');
+body{
+   
+    font-family: 'Montserrat';
+}
+
+
+
+#main-container{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(125, 125, 203);
+}
+
+#form-div{
+    margin: auto;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+ 
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+    /* text-align: center; */
+    font-size: 20px;
+    margin:5px;
+    padding: 5px;
+}
+
+input:active{
+    border: none;
+}
+
+#person{
+    width: 100px;
+    height: 100px;
+    color: rgb(11, 11, 11);
+}
+
+#icon-div{
+    margin: auto;
+    text-align: center;
+}
+
+#sign{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#submit{
+    background-color: rgb(125, 125, 203);
+}
+
+#submit:hover{
+    background-color:  rgb(109, 109, 210);
+}
+
+#aa{
+    font-size: medium;
+    color:red ;
+}
+
+@media screen and (max-width:1024px){
+    #main-container{
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        background-color: rgb(125, 125, 203);
+    }
+}
+
+
+@media screen and (max-width:600px){
+    #main-container{
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        background-color: rgb(125, 125, 203);
+    }
+}
+
+@media screen and (width:360px){
+    #main-container{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        background-color: rgb(125, 125, 203);
+    }
+}

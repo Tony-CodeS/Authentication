@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Allura&family=Montserrat:wght@400;500&family=Pacifico&display=swap');
+html,body{
+    overflow-x: hidden;
+}
+#log-in{
+    background-color: whitesmoke;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.typewriter{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: rgb(14, 14, 15);
+    background-color: rgb(170, 170, 245);
+    height: 700px;
+}
+
+@media screen and (max-width:920px){
+    #log-in{
+        background-color: whitesmoke;
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .typewriter{
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        color: rgb(14, 14, 15);
+        background-color: rgb(170, 170, 245);
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:600px){
+    #log-in{
+        background-color: whitesmoke;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        /* padding: 10px; */
+    }
+}
+
+@media screen and (max-width:280px){
+    #log-in{
+        background-color: whitesmoke;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        /* padding: 10px; */
+    }
+
+    
+input{
+    width: 200px;
+    height: 40px;
+    border:none;
+    border-radius: 10px;
+  
+    font-size: 15px;
+    margin:5px;
+    padding: 5px;
+}
+}
